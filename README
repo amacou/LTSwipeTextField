@@ -1,0 +1,28 @@
+New BSD License
+
+USAGE:
+LTTextView *textView = [[LTTextView alloc] init];
+
+UISwipeGestureRecognizer *textViewGestureR = [[UISwipeGestureRecognizer alloc] initWithTarget:textView action:@selector(doSwipe:)];
+UISwipeGestureRecognizer *textViewGestureL = [[UISwipeGestureRecognizer alloc] initWithTarget:textView action:@selector(doSwipe:)];
+
+textViewGestureR.direction = UISwipeGestureRecognizerDirectionRight;
+textViewGestureL.direction = UISwipeGestureRecognizerDirectionLeft;
+
+[textView addGestureRecognizer:textViewGestureR];
+[textView addGestureRecognizer:textViewGestureL];
+
+
+LTTextField *textField = [[LTTextField alloc] init];
+
+UISwipeGestureRecognizer *textFieldGestureR = [[UISwipeGestureRecognizer alloc] initWithTarget:textField action:@selector(doSwipe:)];
+UISwipeGestureRecognizer *textFieldGestureL = [[UISwipeGestureRecognizer alloc] initWithTarget:textField action:@selector(doSwipe:)];
+
+textFieldGestureR.direction = UISwipeGestureRecognizerDirectionRight;
+textFieldGestureL.direction = UISwipeGestureRecognizerDirectionLeft;
+
+[textField addGestureRecognizer:textFieldGestureR];
+[textField addGestureRecognizer:textFieldGestureL];
+
+
+

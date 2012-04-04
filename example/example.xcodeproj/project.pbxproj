@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4808B3F4152C928600BC3876 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4808B3F3152C928600BC3876 /* UIKit.framework */; };
+		4808B3F6152C928600BC3876 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4808B3F5152C928600BC3876 /* Foundation.framework */; };
+		4808B3F8152C928600BC3876 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4808B3F7152C928600BC3876 /* CoreGraphics.framework */; };
+		4808B3FE152C928600BC3876 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4808B3FC152C928600BC3876 /* InfoPlist.strings */; };
+		4808B400152C928600BC3876 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4808B3FF152C928600BC3876 /* main.m */; };
+		4808B404152C928600BC3876 /* LTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4808B403152C928600BC3876 /* LTAppDelegate.m */; };
+		4808B407152C928600BC3876 /* LTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4808B406152C928600BC3876 /* LTViewController.m */; };
+		4808B40A152C928600BC3876 /* LTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4808B408152C928600BC3876 /* LTViewController.xib */; };
+		4808B415152C930400BC3876 /* LTTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4808B412152C930400BC3876 /* LTTextField.m */; };
+		4808B416152C930400BC3876 /* LTTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4808B414152C930400BC3876 /* LTTextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4808B3EF152C928600BC3876 /* example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4808B3F3152C928600BC3876 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4808B3F5152C928600BC3876 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4808B3F7152C928600BC3876 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4808B3FB152C928600BC3876 /* example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "example-Info.plist"; sourceTree = "<group>"; };
+		4808B3FD152C928600BC3876 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4808B3FF152C928600BC3876 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4808B401152C928600BC3876 /* example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "example-Prefix.pch"; sourceTree = "<group>"; };
+		4808B402152C928600BC3876 /* LTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTAppDelegate.h; sourceTree = "<group>"; };
+		4808B403152C928600BC3876 /* LTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTAppDelegate.m; sourceTree = "<group>"; };
+		4808B405152C928600BC3876 /* LTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTViewController.h; sourceTree = "<group>"; };
+		4808B406152C928600BC3876 /* LTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTViewController.m; sourceTree = "<group>"; };
+		4808B409152C928600BC3876 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LTViewController.xib; sourceTree = "<group>"; };
+		4808B411152C930400BC3876 /* LTTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTTextField.h; path = ../../lib/LTTextField.h; sourceTree = "<group>"; };
+		4808B412152C930400BC3876 /* LTTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LTTextField.m; path = ../../lib/LTTextField.m; sourceTree = "<group>"; };
+		4808B413152C930400BC3876 /* LTTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTTextView.h; path = ../../lib/LTTextView.h; sourceTree = "<group>"; };
+		4808B414152C930400BC3876 /* LTTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LTTextView.m; path = ../../lib/LTTextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4808B3EC152C928600BC3876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4808B3F4152C928600BC3876 /* UIKit.framework in Frameworks */,
+				4808B3F6152C928600BC3876 /* Foundation.framework in Frameworks */,
+				4808B3F8152C928600BC3876 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4808B3E4152C928500BC3876 = {
+			isa = PBXGroup;
+			children = (
+				4808B3F9152C928600BC3876 /* example */,
+				4808B3F2152C928600BC3876 /* Frameworks */,
+				4808B3F0152C928600BC3876 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4808B3F0152C928600BC3876 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4808B3EF152C928600BC3876 /* example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4808B3F2152C928600BC3876 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4808B3F3152C928600BC3876 /* UIKit.framework */,
+				4808B3F5152C928600BC3876 /* Foundation.framework */,
+				4808B3F7152C928600BC3876 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4808B3F9152C928600BC3876 /* example */ = {
+			isa = PBXGroup;
+			children = (
+				4808B410152C92DD00BC3876 /* lib */,
+				4808B402152C928600BC3876 /* LTAppDelegate.h */,
+				4808B403152C928600BC3876 /* LTAppDelegate.m */,
+				4808B405152C928600BC3876 /* LTViewController.h */,
+				4808B406152C928600BC3876 /* LTViewController.m */,
+				4808B408152C928600BC3876 /* LTViewController.xib */,
+				4808B3FA152C928600BC3876 /* Supporting Files */,
+			);
+			path = example;
+			sourceTree = "<group>";
+		};
+		4808B3FA152C928600BC3876 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4808B3FB152C928600BC3876 /* example-Info.plist */,
+				4808B3FC152C928600BC3876 /* InfoPlist.strings */,
+				4808B3FF152C928600BC3876 /* main.m */,
+				4808B401152C928600BC3876 /* example-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4808B410152C92DD00BC3876 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				4808B411152C930400BC3876 /* LTTextField.h */,
+				4808B412152C930400BC3876 /* LTTextField.m */,
+				4808B413152C930400BC3876 /* LTTextView.h */,
+				4808B414152C930400BC3876 /* LTTextView.m */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4808B3EE152C928600BC3876 /* example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4808B40D152C928600BC3876 /* Build configuration list for PBXNativeTarget "example" */;
+			buildPhases = (
+				4808B3EB152C928600BC3876 /* Sources */,
+				4808B3EC152C928600BC3876 /* Frameworks */,
+				4808B3ED152C928600BC3876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = example;
+			productName = example;
+			productReference = 4808B3EF152C928600BC3876 /* example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4808B3E6152C928500BC3876 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LT;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 4808B3E9152C928500BC3876 /* Build configuration list for PBXProject "example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4808B3E4152C928500BC3876;
+			productRefGroup = 4808B3F0152C928600BC3876 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4808B3EE152C928600BC3876 /* example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4808B3ED152C928600BC3876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4808B3FE152C928600BC3876 /* InfoPlist.strings in Resources */,
+				4808B40A152C928600BC3876 /* LTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4808B3EB152C928600BC3876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4808B400152C928600BC3876 /* main.m in Sources */,
+				4808B404152C928600BC3876 /* LTAppDelegate.m in Sources */,
+				4808B407152C928600BC3876 /* LTViewController.m in Sources */,
+				4808B415152C930400BC3876 /* LTTextField.m in Sources */,
+				4808B416152C930400BC3876 /* LTTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4808B3FC152C928600BC3876 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4808B3FD152C928600BC3876 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4808B408152C928600BC3876 /* LTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4808B409152C928600BC3876 /* en */,
+			);
+			name = LTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4808B40B152C928600BC3876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4808B40C152C928600BC3876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4808B40E152C928600BC3876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "example/example-Prefix.pch";
+				INFOPLIST_FILE = "example/example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4808B40F152C928600BC3876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "example/example-Prefix.pch";
+				INFOPLIST_FILE = "example/example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4808B3E9152C928500BC3876 /* Build configuration list for PBXProject "example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4808B40B152C928600BC3876 /* Debug */,
+				4808B40C152C928600BC3876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4808B40D152C928600BC3876 /* Build configuration list for PBXNativeTarget "example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4808B40E152C928600BC3876 /* Debug */,
+				4808B40F152C928600BC3876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4808B3E6152C928500BC3876 /* Project object */;
+}
